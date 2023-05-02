@@ -13,6 +13,7 @@
 		816B733E29F9233C009E81E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816B733D29F9233C009E81E8 /* Preview Assets.xcassets */; };
 		816B734729F968CF009E81E8 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B734629F968CF009E81E8 /* FruitCardView.swift */; };
 		81F9CEA22A00E8A10012EDF2 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F9CEA12A00E8A10012EDF2 /* StartButtonView.swift */; };
+		81F9CEA42A00EC750012EDF2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F9CEA32A00EC750012EDF2 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		816B733D29F9233C009E81E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		816B734629F968CF009E81E8 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		81F9CEA12A00E8A10012EDF2 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		81F9CEA32A00EC750012EDF2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				816B733829F9233B009E81E8 /* ContentView.swift */,
 				816B733629F9233B009E81E8 /* FructusSwiftUIApp.swift */,
+				81F9CEA32A00EC750012EDF2 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				816B734729F968CF009E81E8 /* FruitCardView.swift in Sources */,
 				81F9CEA22A00E8A10012EDF2 /* StartButtonView.swift in Sources */,
 				816B733929F9233B009E81E8 /* ContentView.swift in Sources */,
+				81F9CEA42A00EC750012EDF2 /* OnboardingView.swift in Sources */,
 				816B733729F9233B009E81E8 /* FructusSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
