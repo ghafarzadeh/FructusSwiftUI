@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(fruits) { item in
+                ForEach(fruits.shuffled()) { item in
                    FruitRowView(fruit: item)
                         .padding(.vertical, 4)
                 }
