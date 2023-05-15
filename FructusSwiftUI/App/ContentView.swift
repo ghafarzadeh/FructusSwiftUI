@@ -12,15 +12,18 @@ struct ContentView: View {
     var fruits:[Fruit] = fruitsData
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             List {
                 ForEach(fruits.shuffled()) { item in
-                   FruitRowView(fruit: item)
-                        .padding(.vertical, 4)
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
+                        FruitRowView(fruit: item)
+                             .padding(.vertical, 4)
+                    }
                 }
             }
             .navigationTitle("Fruits")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
